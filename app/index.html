@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DealVerdict: 46 real Black Friday 2026 deals, each checked at its store on Nov 27, 2026, with an honest verdict on whether it is really a deal.">
+<title>DealVerdict — Real Black Friday deals, checked Nov 27, 2026</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23c2410c'/%3E%3Ctext x='32' y='44' font-family='Arial' font-size='36' font-weight='bold' fill='white' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#/">Deal<span>Verdict</span></a>
+    <p class="tagline">Real Black Friday deals — checked today, judged honestly.</p>
+  </div>
+</header>
+<main class="wrap">
+  <section class="intro" id="board-intro">
+    <h1>Black Friday 2026, without the fake discounts</h1>
+    <p>Every deal below was read from a named deals source on <strong>Nov 27, 2026</strong> and
+    priced at the store named. Each one carries a verdict — <strong>all-time low</strong>,
+    <strong>strong deal</strong>, <strong>good deal</strong> or <strong>first-ever cut</strong> —
+    with the evidence behind it, so you can tell a real bargain from a routine sale
+    dressed up for Black Friday.</p>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <div id="board">
+    <section class="controls" aria-label="Search and filter deals">
+      <label>Search <input id="q" type="search" placeholder="Search deals, stores…" autocomplete="off"></label>
+      <label>Category <select id="category"></select></label>
+      <label>Store <select id="store"></select></label>
+      <label>Verdict <select id="verdict">
+        <option value="All">Any verdict</option>
+        <option value="all-time-low">All-time low</option>
+        <option value="first-cut">First-ever cut</option>
+        <option value="strong">Strong deal</option>
+        <option value="good">Good deal</option>
+        <option value="routine">Routine sale</option>
+      </select></label>
+      <label>Min. discount <select id="min-discount">
+        <option value="">Any discount</option>
+        <option value="20">20% off or more</option>
+        <option value="30">30% off or more</option>
+        <option value="40">40% off or more</option>
+        <option value="50">50% off or more</option>
+      </select></label>
+      <label>Sort <select id="sort"></select></label>
+      <button type="button" id="reset">Reset</button>
+    </section>
+    <p class="count" id="count"></p>
+    <div id="results"></div>
+  </div>
+
+  <div id="detail" hidden></div>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <h2>How DealVerdict works</h2>
+    <p><strong>Checked, not scraped.</strong> Each price was read from a named deals source on
+    Nov 27, 2026 — MacRumors, 9to5Mac, Macworld, CNN Underscored, Popular Science, Koupon,
+    2ndshift.gg, Redmond Pie, Home Automation Weekly and the TradingView / Benzinga roundup —
+    and the store link opens that store's own listing for the product.</p>
+    <p><strong>Verdicts are earned from the numbers.</strong> An all-time low is the lowest price
+    any tracker has seen; a strong deal is a deep cut of 25% or more (or $100+ saved); a good
+    deal is a real cut worth taking; a first-ever cut is the first discount on a product that
+    never goes on sale. A routine sale is a small cut on an inflated list price — none is listed here.</p>
+    <p><strong>Prices move.</strong> Black Friday prices change by the hour and stock sells out.
+    Confirm the price at checkout before you buy. DealVerdict is an independent guide and is not
+    affiliated with Amazon, Best Buy, Walmart, Target, Google, Apple, Samsung or any store named here.</p>
+    <p class="fine">46 deals · 10 categories · 6 stores · all prices checked Nov 27, 2026, 1:15 PM UTC · Black Friday Nov 27 – Cyber Monday Nov 30, 2026.</p>
+  </div>
+</footer>
+</body>
+</html>
